@@ -93,7 +93,7 @@ class _HomePageState extends State<HomePage> {
                         child: Padding(
                           padding: const EdgeInsets.symmetric(
                             horizontal: 15,
-                            vertical: 10,
+                            vertical: 5,
                           ),
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
