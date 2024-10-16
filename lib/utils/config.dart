@@ -61,6 +61,8 @@ class Config {
   static const whiteColor = Colors.white;
   static const greyColor = Colors.grey;
   static const redColor = Colors.red;
+  static const greenColor = Colors.green;
+
 
 
 
