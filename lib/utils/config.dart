@@ -56,12 +56,12 @@ class Config {
     ),
   );
 
-  static const primaryColor = Colors.blueAccent;
+  static const primaryColor = Color.fromARGB(255, 23, 206, 212);
   static const blackColor = Colors.black;
   static const whiteColor = Colors.white;
   static const greyColor = Colors.grey;
   static const redColor = Colors.red;
-  static const greenColor = Colors.green;
+  static const greenColor = Color.fromARGB(255, 39, 224, 163);
 
 
 

@@ -1,15 +1,11 @@
 import 'package:doctapp/utils/config.dart';
 import 'package:flutter/material.dart';
 
-class DoctorCard extends StatefulWidget {
-  const DoctorCard({super.key});
-
-  @override
-  State<DoctorCard> createState() => _DoctorCardState();
-}
-
-class _DoctorCardState extends State<DoctorCard> {
-  @override
+// change
+class DoctorCard extends StatelessWidget {
+  const DoctorCard({super.key, required this.route});
+final String route;
+ @override
   Widget build(BuildContext context) {
     Config().init(context);
     return Container(
@@ -87,7 +83,10 @@ class _DoctorCardState extends State<DoctorCard> {
             ],
           ),
         ),
-        onTap: (){},// To Doctor DEtails
+        onTap: (){
+          // to doctor details
+          Navigator.of(context).pushNamed(route);
+        },// To Doctor DEtails
       ),
     );
   }
